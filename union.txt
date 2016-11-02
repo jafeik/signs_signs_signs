@@ -1,0 +1,4349 @@
+{
+  "operationalLayers": [
+    {
+      "id": "UnionMisc_7842",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/12",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Design Note (Edit)",
+      "popupInfo": {
+        "title": "Design Note (Edit): {Acknowledge}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Initial_Comment",
+            "label": "Initial Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Acknowledge",
+            "label": "Acknowledge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Final_Comment",
+            "label": "Comment After Acknowledge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      },
+      "showLegend": false
+    },
+    {
+      "id": "UnionMisc_8155",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/11",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Design Note (Non-Edit)",
+      "popupInfo": {
+        "title": "Design Note (Non-Edit): {Initial_Comment}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Initial_Comment",
+            "label": "Initial Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Acknowledge",
+            "label": "Acknowledge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Final_Comment",
+            "label": "Comment After Acknowledge",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      },
+      "capabilities": "Query"
+    },
+    {
+      "id": "UnionMisc_4412",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/10",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Inspection Work Order (Edit)",
+      "popupInfo": {
+        "title": "Inspection Work Order (Edit): {Status}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Initial Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Status",
+            "label": "Status",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Final_Comment",
+            "label": "Comment After Complete",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      },
+      "showLegend": false
+    },
+    {
+      "id": "UnionMisc_6219",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/9",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Inspection Work Order (Non-Edit)",
+      "popupInfo": {
+        "title": "Inspection Work Order (Non-Edit): {Status}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Initial Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Status",
+            "label": "Status",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Final_Comment",
+            "label": "Comment After Complete",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": true
+            }
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      },
+      "showLegend": true,
+      "capabilities": "Query"
+    },
+    {
+      "id": "UnionMisc_7123",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/8",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "D-T3B",
+      "popupInfo": {
+        "title": "D-T3B: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "NumberPosts",
+            "label": "Number of Posts",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "Embedment",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "Anchor Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_7448",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/7",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "D-Object Markers",
+      "popupInfo": {
+        "title": "D-Object Markers: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Breakaway",
+            "label": "Break Away",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "Embedment",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "Anchor Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_6637",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/6",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "D-Del7",
+      "popupInfo": {
+        "title": "D-Del7: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "NumberPosts",
+            "label": "Number of Posts",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "PostSize",
+            "label": "Post Size",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "PostHeight",
+            "label": "Post Height",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "SignEleven",
+            "label": "Type XI Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Sign_Dimensions",
+            "label": "Sign Dimensions",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignArea4",
+            "label": "Type IV Area",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "Embedment",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "Anchor Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_6254",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/5",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "D-Delineators",
+      "popupInfo": {
+        "title": "D-Delineators: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_9005",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/4",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Delta Sign",
+      "popupInfo": {
+        "title": "Delta Sign: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Dimensions",
+            "label": "Sign Dimensions",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SignArea4",
+            "label": "Type IV Area",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SignEleven",
+            "label": "Type XI Area",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NumberPosts",
+            "label": "Number of Posts",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PostHeight",
+            "label": "Post Height",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "PostSize",
+            "label": "Post Size",
+            "isEditable": true,
+            "isEditableOnLayer": true,
+            "visible": true,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Breakaway",
+            "label": "Break Away",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Sign_Legend",
+            "label": "Sign_Legend",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "Embedment",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "Anchor Height Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignLegend",
+            "label": "Sign Legend",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_6452",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/3",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "T3B",
+      "popupInfo": {
+        "title": "T3B: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "1 Anchor Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "2 Embedment Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "4 Sign Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_9702",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/2",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Object Markers",
+      "popupInfo": {
+        "title": "Object Markers: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "1 Anchor Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "2 Embedment Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "4 Sign Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_2743",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/1",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Del7",
+      "popupInfo": {
+        "title": "Del7: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "NumberPosts",
+            "label": "Number of Posts",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "PostSize",
+            "label": "Post Size",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "PostHeight",
+            "label": "Post Height",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "1 Anchor Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "2 Embedment Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "4 Sign Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionMisc_6613",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionMisc/FeatureServer/0",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Delineators",
+      "popupInfo": {
+        "title": "Delineators: {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "1 Anchor Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "2 Embedment Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "4 Sign Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            },
+            "_visible": true,
+            "_pos": 0
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            },
+            "_visible": true,
+            "_pos": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "UnionSigns_513",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionSigns/FeatureServer/0",
+      "visibility": true,
+      "opacity": 1,
+      "mode": 1,
+      "title": "Signs",
+      "popupInfo": {
+        "title": "Signs : {Sign_Subtype}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Owner",
+            "label": "Owner",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Route",
+            "label": "Route",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Dimensions",
+            "label": "Sign Dimensions",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignArea4",
+            "label": "Type IV Area",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignEleven",
+            "label": "Type XI Area",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignLegend",
+            "label": "Sign Legend",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "NumberPosts",
+            "label": "Number of Posts",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "PostSize",
+            "label": "Post Size",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "PostHeight",
+            "label": "Post Height",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Breakaway",
+            "label": "Break Away",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Flags",
+            "label": "Flags",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Comment",
+            "label": "Comment",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Anchor_Height_Check",
+            "label": "1 Anchor Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Embedment",
+            "label": "2 Embedment Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Check",
+            "label": "4 Sign Height Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "dateFormat": "shortDateShortTime"
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Description",
+            "label": "Description",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 6,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 6,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/SignAction",
+            "label": "SignAction",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/SignArea11",
+            "label": "Type XI Area",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/SignArea",
+            "label": "Type IV Area",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/SignComments",
+            "label": "Comments",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/StickerDate",
+            "label": "Sticker Date",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/Minnehaha_West_GlobalID",
+            "label": "Minnehaha_West_GlobalID",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/Sign_Dimensions",
+            "label": "Sign Dimensions",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/Code",
+            "label": "Code",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/SignLegend",
+            "label": "Sign Legend",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "statisticType": "count",
+            "fieldName": "relationships/0/FKPostObjID",
+            "label": "FKPostObjID",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "relatedRecordsInfo": {
+          "showRelatedRecords": true,
+          "orderByFields": null
+        },
+        "mediaInfos": [
+          {
+            "title": "Created by",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/{created_user}.jpg",
+              "linkURL": ""
+            }
+          },
+          {
+            "title": "Sign Symbol",
+            "type": "image",
+            "caption": "",
+            "value": {
+              "sourceURL": "http://map.ulteig.com/signs/PNG/{Code}.png",
+              "linkURL": ""
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "defaultBasemap_0",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "url": "http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+        "visibility": true,
+        "opacity": 1,
+        "title": "World_Topo_Map"
+      }
+    ],
+    "title": "Topographic"
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "authoringApp": "WebMapViewer",
+  "authoringAppVersion": "4.3",
+  "version": "2.6",
+  "tables": [
+    {
+      "url": "http://map.ulteig.com/arcgis/rest/services/UnionSigns/UnionSigns/FeatureServer/1",
+      "id": "UnionSigns_2192",
+      "title": "Attached Signs",
+      "popupInfo": {
+        "title": "Attached Signs: {Code}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Code",
+            "label": "Code",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignAction",
+            "label": "Sign Action",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "Sign_Dimensions",
+            "label": "Sign Dimensions",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignArea",
+            "label": "Type IV Area",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignArea11",
+            "label": "Type XI Area",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignLegend",
+            "label": "Sign Legend",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "StickerDate",
+            "label": "Sticker Date",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "SignComments",
+            "label": "Comments",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": false
+          },
+          {
+            "fieldName": "Minnehaha_West_GlobalID",
+            "label": "Minnehaha_West_GlobalID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "isEditableOnLayer": true
+          },
+          {
+            "fieldName": "relationships/0/OBJECTID",
+            "label": "ID",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false,
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Owner",
+            "label": "Owner",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Route",
+            "label": "Route",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Comment",
+            "label": "Comment",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/NumberPosts",
+            "label": "Number of Posts",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/PostSize",
+            "label": "Post Size",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/StickerDate",
+            "label": "Sticker Date",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Breakaway",
+            "label": "Break Away",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Flags",
+            "label": "Flags",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/PostHeight",
+            "label": "Post Height",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/POINT_Y",
+            "label": "Latitude",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/ActionQuantity",
+            "label": "Action Quantity",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/SignAction",
+            "label": "Sign Action",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/SignLegend",
+            "label": "Sign Legend",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/SignEleven",
+            "label": "Type XI Area",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Sign_Subtype",
+            "label": "Sign Code",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/created_user",
+            "label": "Created By",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/created_date",
+            "label": "Creation Date",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            },
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/last_edited_user",
+            "label": "Last Edited By",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/last_edited_date",
+            "label": "Last Edited Date",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false,
+            "format": {
+              "dateFormat": "shortDateShortTime",
+              "timezone": "utc"
+            },
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Sign_Facing",
+            "label": "Sign Facing",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Sign_Dimensions",
+            "label": "Sign Dimensions",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Description",
+            "label": "Description",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/SignArea4",
+            "label": "Type IV Area",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Code",
+            "label": "Code",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Remove_Quantity",
+            "label": "Remove Quantity",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Embedment",
+            "label": "2 Embedment Check",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Height_Check",
+            "label": "4 Sign Height Check",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Anchor_Height_Check",
+            "label": "1 Anchor Height Check",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Offset_Check",
+            "label": "3 Offset Check",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Height_Above_Road_Check",
+            "label": "5 Height Above Road Check",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/Sign_Check_Comments",
+            "label": "Sign Check Comments",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "stringFieldOption": "textbox",
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/POINT_X",
+            "label": "Longitude",
+            "isEditable": false,
+            "isEditableOnLayer": true,
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "statisticType": "count"
+          },
+          {
+            "fieldName": "relationships/0/GlobalID",
+            "label": "GlobalID",
+            "isEditable": false,
+            "isEditableOnLayer": false,
+            "visible": false,
+            "statisticType": "count"
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "relatedRecordsInfo": {
+          "showRelatedRecords": true,
+          "orderByFields": null
+        },
+        "mediaInfos": []
+      }
+    }
+  ],
+  "applicationProperties": {
+    "viewing": {
+      "routing": {
+        "enabled": true
+      },
+      "basemapGallery": {
+        "enabled": true
+      },
+      "measure": {
+        "enabled": true
+      }
+    }
+  }
+}
